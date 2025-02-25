@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-family: 'Courier', monospace;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100vh;
+}
+
+.columna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+.columna1{background-color: #ada991;}
+.columna2{background-color: #574964;}
+.columna3{background-color: #a94a4a;}
+.columna4{background-color: #fbf5dd;}
+.columna5{background-color: #c890a7;}

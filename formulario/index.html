@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>>>>, initial-scale=1.0">
+    <title>Formulario numero 1</title>
+    <link rel ="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <h1 id ="encabezado1"> Hola este es mi primer cuestionario</h1>
+        <h1></h1>
+    </header>
+    <main>
+        <!--cuerpo html-->
+        <form action ="/procesar" method="post"><!--esta estiqueta se utiliza para iniciar una seccion de formuario-->
+            <label for="nombre"> Nombre:</label><!--se usa para dar un nombre texto-->
+            <input type ="text" id ="nombre" name ="nombre" required ><!--podemos ingresar texto-->
+            <br>
+            <label for ="correo">Correo:</label>
+            <input type ="text" id ="email" name ="email" required >
+            <br><select name ="pais">
+                <option value  ="Mx">ninguno</option>
+                <option value  ="Mx">Canada</option>
+                <option value  ="Mx">Mexico</option>
+                <option value  ="Mx">España</option>
+        </select>
+            <br><textarea name ="comentarios" id = "comentarios" rows ="4" cols ="50"></textarea>
+
+            <br><button type = "submit" >Enviar</button><!--crea un boton-->
+
+        </form>
+    </main>
+    <footer>
+        <!--pie de pagina-->
+    </footer>
+</body>
+</html>

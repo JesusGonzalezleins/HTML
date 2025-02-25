@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-family: 'Courier', monospace;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: (5,1fr);
+    height: 100vh;
+}
+
+.fila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+.fila1{background-color: #ada991;}
+.fila2{background-color: #574964;}
+.fila3{background-color: #a94a4a;}
+.fila4{background-color: #fbf5dd;}
+.fila5{background-color: #c890a7;}
