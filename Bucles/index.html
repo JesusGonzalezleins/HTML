@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol id="lista">
+
+    </ol>
+
+    <ol id="tabla">
+
+    </ol>
+        <script>
+            let productos=["leche","huevo","jugo","refresco","cereal","detergente"];
+
+            let lista= document.getElementById("lista");
+
+            for(let i=0;i<productos.length;i++){
+                let item=document.createElement("li");
+                item.textContent=productos[i];
+                lista.appendChild(item);
+            }
+
+            let tablaDelUno = [];
+    
+            for(let i = 1; i <= 10; i++){
+             tablaDelUno.push(`1 x ${i} = ${1 * i}`);
+             }
+    
+            let tabla = document.getElementById("tabla");
+    
+            for(let i = 0; i < tablaDelUno.length; i++){
+            let item = document.createElement("li");
+            item.textContent = tablaDelUno[i];
+             tabla.appendChild(item);
+            }
+        </script>
+</body>
+</html>

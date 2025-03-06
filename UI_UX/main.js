@@ -60,7 +60,7 @@ switch (dia.toLowerCase()){
             alert("ya mero");
             break;
       default:
-                  alert("parametro no permitido");
+            alert("parametro no permitido");
 }
 */
 
