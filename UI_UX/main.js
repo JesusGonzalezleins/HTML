@@ -71,8 +71,8 @@ let numero = prompt("ingrese un numero para determinar si es par o no");
       alert("El numero es impar")
  }
 
-let num1 = parseFloat(prompt("Ingresa el primer número:"));
-let num2 = parseFloat(prompt("Ingresa el segundo número:"));
+let num1 = parseFloat(prompt("Ingresa el primer número para calcular:"));
+let num2 = parseFloat(prompt("Ingresa el segundo número para calcular:"));
 
 let suma = num1 + num2;
 let resta = num1 - num2;
